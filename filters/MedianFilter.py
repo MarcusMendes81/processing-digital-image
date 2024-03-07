@@ -1,6 +1,6 @@
 
 import cv2 as cv
-import sys
+
 
 img_rgb = cv.imread('../assets/fox.jpg')
 img_gray = cv.cvtColor(img_rgb,cv.COLOR_BGR2GRAY)
